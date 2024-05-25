@@ -706,7 +706,7 @@ button:hover {
     padding-bottom: 30px;
 }
 .footer-2 a{
-    color: #e16200;
+    color: #e16200 !important;
     margin-top: 10px;
 }
 .footer .footer-1 p {
