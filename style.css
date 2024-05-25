@@ -236,6 +236,7 @@ button:hover {
 
     .home {
         flex-direction: column;
+        margin-left: -46px;
     }
 
     .home .left {
