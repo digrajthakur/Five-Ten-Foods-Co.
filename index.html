@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Slick Website</title>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+        <link rel="stylesheet" href="style.css">
+        <!-- swiper css -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    </head>
+    <body>
+        <!-- header start  -->
+        <div class="header-1">
+            <div class="images-1">
+                <a href="index.html" style="color: white;text-decoration: none;">
+                    <h1>Five Ten Foods & Co.</h1>
+                </a>
+            </div>
+            <div class="para-2">
+                <div class="head-4">
+                    <h1>
+                        <a href="#home">Home</a>
+                    </h1>
+                    <h1>
+                        <a href="#shop">Shop</a>
+                    </h1>
+                    <h1>
+                        <a href="#collection">Collection</a>
+                    </h1>
+                    <!-- <h1>
+                        <a href="app.html">Contact Us</a>
+                    </h1> -->
+                    <div class="header-right">
+                        <a href="#collection">
+                            <i class="uil uil-search" id="search"></i>
+                        </a>
+                        <a href="#shop-now">
+                            <i class="uil uil-shopping-cart"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="toggle">
+                    <span class="fa fa-bars" id="toggle"></span>
+                </div>
+            </div>
+        </div>
+        <!-- navbar end -->
+        <!-- home -->
+        <section>
+            <div id="home" class="home">
+                <div class="left">
+                    <h1>Buy Delicious Chicken Today</h1>
+                    <p>
+                        Explore our collection of delicious and juicy chicken, 
+                    perfectly prepared to delight your taste buds. From crispy wings 
+                    to succulent breasts, find the perfect dish for any occasion.
+                    </p>
+                    <a href="#shop" style="text-decoration: none;" class="btnn">
+                        <button>Shop Now</button>
+                    </a>
+                </div>
+                <div class="right">
+                    <img src="hometopimg 1.png" alt="">
+                </div>
+            </div>
+            <!-- logo -->
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide">
+                        <img src="https://www.tailorbrands.com/wp-content/uploads/2021/09/Adidas-trefoil-logo-768x299.jpg" alt="Logo 1">
+                    </div>
+                    <div class="slide">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo0DDaXzIZ0PvSQVElaWFcx1Qb5819_OfTfEP93tGpW_IFtc-9s4DnUAU88ANUGcOtzns&usqp=CAU" alt="Logo 2">
+                    </div>
+                    <div class="slide">
+                        <img src="https://w7.pngwing.com/pngs/1012/770/png-transparent-amazon-logo-amazon-com-amazon-video-logo-company-brand-amazon-logo-miscellaneous-wish-text-thumbnail.png" alt="Logo 3">
+                    </div>
+                    <div class="slide">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsDY3XAgcf-YzzxM6dj77qxX6fw47hp5rYPSALQ5dmnnUSIGBGCGqTr-Bn35n6GRfb2fo&usqp=CAU" alt="Logo 4">
+                    </div>
+                    <div class="slide">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6NUVHCsKGrJ5Nxg3Q_O2Tdy4zzcw7su05Rbi5R3awgvGsBg4k1x_PRjbQPe7NlWK3L-c&usqp=CAU" alt="Logo 5">
+                    </div>
+                    <div class="slide">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmhQ_fbRTlXpWgeCjOCgn_zqDkAFRRDxcb9WekrYyfCH0NdHClsj5kTPPAqVbQZDT2Kpk&usqp=CAU" alt="Logo 1">
+                    </div>
+                    <div class="slide">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZld1FgART_4SoKMc0lA5YaXrKwaTyKq7jc2umiBONSpnZg0GM4slSoky5sfQvKFqZnQ&usqp=CAU" alt="Logo 2">
+                    </div>
+                    <div class="slide">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAecAAABnCAMAAAANFHoKAAAAk1BMVEX///9zc3P/uQDyUCJ/ugAApO9ra2tubm5oaGiHh4fMzMyzs7OamppnZ2fX19fs7Ozi4uLk79L4+/H/79L/+/H2jHPySxjyRw/3pJGCvAD/+vllwfSIzfb/uwDzYjuMwSH/wCEhrvGlpaW9vb329va7u7t7e3uLi4vn5+fJycmTk5Opqamfn59fX1/3l3/zXjT4rJraaoESAAAMrUlEQVR4nO2di9bjphGArTYFXaxLtpum2TZNK2FdvU3f/+mqKzPAIKFN+8eyNHtyNmuhseATMDMM+PbDX/64S378662X77/bKT99ul3ye8rF+RxycT6HXJzPIRfnc8jF+RxycT6HXJzPIRfnc8jF+RxycT6HXJzPIRfnc8jF+RxycT6HXJzPIRfno0sStaXneWVZRam91MX50FLfY8a5NwqPH/aCF+cDi8jjmfEorLAXfVPO2aPrivpjv/PDJSuZ5x2LcxIqkrhUUzTKPRm60sacc8aewkXPUSXxuHc0zm3MsMQuXbFQ7okjeUGUcwOwyqW9Diq1p8sBON/VV5NH68VHCWy3tFIZc9FzTBGB1puPyNkrt0fcxLdwrpEu37HVjieRMjf30xQ/ImcWblbUOgSEqAX8bE3FgSVFleRx8Ozylml+ldJVXpQzv29VVMTaHZJzg5qAOVl0B5QOGoy1szUTos6RFtVXXP5FOXtsJbYzSqS/GZJzgjg7GXRHFFTx3LiYRWXMeIw/elnOK7GdUfQbgLMo0ceu7XYwycA4KdUrInx6/tg4h+CsP74uIdPKI3u7kY3gb0/zx5RCVp812hUZIjsGZ399Zq3s/fl2yyfQfHNQOKzksvpcm5nAOjkG53VLrNa7s+pyN4Hv+7x9VyMMhwj0melonD1/zYXuzPdCCYmINMm2LLkjSyXrrc9vh+O85vULo7RbCO1tBGKBgXblcJzXLLHGGLYvzrMchDMHv3gllrXEdnl3cdauHISzD8sw/GkrnS2lywTszovzKEfhnEKH5jZL7Ll056j+bZz/J+vTrkpEmiVhbx46ld8odHzOtZBRDj0EsEgq2dY0ZyHF8nUiDaO8rYIyqO5dU+Niwri5L9vl3cOYRUTdRM82GJS0+SNZJSOSrvJinzHmxzzIG6svsKV0fjLEWahSwLyHq/JynDPkG+rv6ixLMIi3MIJjzkkZzFKS7Zl0AWN8Sp8b8k78MgdPu11uLqe4cdjyoSxnX1XQSV76ixJvUOK1jfW1KgKfI0uTMxaQ3sSm0qVq3i7h+StyhoVlTltiSy1ZaOEMQxfBuQmY6Xyzaikpl+/HQE1aMfRkIAWppIxI0mFJuAetWc5Bqbbo7ii9pfOCnG9yHYJ3VFmJsRRbnH2Dc0a05SBsoSi7ysC5LqEw4pwEJrhJS0lMNR1V2OTspDSxlFmX1+zPt4esDJlWcpdO1W0354imjIYOzFkgzIgzCW4WZqwStmRpg3Nne7JBqfQ83oqzgMUYYr0plQNrvZsz3ebj7RRnJXqzcBbValvruYdPurTO2VHpW3GWfhM5iy2JUXyo+z7OK41JcH4mSsrKzJnIv9M0KdZjE1tKKTVTBg6yePWOnJElZuaDLLP32Nd3cb6bi1xwO9GfK6XszLnViHDOtU8Yiu8IfG003OdtMipnfZXVqvS9OKPGNqIfoXwHxE7OkWKr9g3e+6i9C83HidHkjFsdnkyZmznzgnue36tSmVxjsJvA1PB4GSVZliWP1mMaZxel/qg0GTYgqC8BV0XRNIv/mvY2TpcwLLGlP022+A7OyijMeTuHR0T2GHwnK2fGg7YN+jaP1ZFmuBQs8Q6RKDM/BPIghQmlcaWDa4c425VyXWn2zAfpQG/Z5Vi6Fm4opCS3H378EM7f7eMsI15Gwma9tAmrd3LGWWOsVTzz7O6bftWk1Zs2m4os8jJNiaeEOhI0xUqmKClVjfmEATLXsFK+rVR9Sse4579//ccu+fU/w13f//TLTtnHGfJi9LQSmWAw1c+dMxpBiaXtpFzeJ4UzD0DBEJducM/TgjjYllrMCuipuucg4P3Fi6x6ZChFVh8O+tg5FzTnL7tlvO3T+Gf4+/Zp/mD6cPlUvfZpa7ukzjmTT8tVk3kpN8e+nTljg4jy1mQ0G3PmgTZr4GtmvBtxngM8kK3IjOJSUHeOjVKpZyhVn9KR84uIzhkqoubyyXd/3lDjzBmq7/kriSpaf9bcbzSRUmssIUq2FerjrnBGJjSVQoMSWzn1lAfnDC2kVGR595d325kzMogInxwJ4mw0O8RNOLkTE+6dzQrUn60vFwrGkOs2hlL1w4NzhgwwnOAr09OXfRaunKHcen6hwtmw9clgNxLAOr+HiTWdXgraVUCnMhtK1af8/3L+/GX482X47/M4a0//+Lz8zxf12ufPG/oMzsgSQ2EHmWCwdCdXzih5gVwbAYEWNEqiEZamBi/n/IDI3uYt/X5lW0pv8K4A092c//avnfL34a4///zPnbIB2uQMBJlsIKFZYe6cIeC0tYOSHCb1JuSWDQDg8M5jARodeFlQpJFSS0YMPDv45XbODwvnP+2UifMf9spuzrAQDFMbtMlSYUfOaHDc2M+D+7O+2HXffFnQsFFrTzxUpHyY6+FPUGrZVvAwg7NrnGXp34Pzz/s5E5aYboU5c0bFtjbcoh5ovxRb5niYS2doWqI58576G1IR45ZNKYwwb8QZrJ7Fq5T8oJAj52RzxJVib0HsPVtuzozctlDfps0qpdvikcbCOSOCLe/EWYa+lojfXbfCnDkjP9aSWygFllB0/wv1TUvi2i01cxg7PdOHswCRRpxth+YQSlc4R4fjnMquwKZ/E6wcOcNLvnkghpI3pAiEpmjv+aYgkUZFZ6xAc3aXXRcptfn1qB2k0nfiDFPXBDYyrDBnzlD5zYMsfhtnKi7S6GvJw/LIUk0HzuLdOUMccaiMMK0wZ87dx/dnND+kdzP3a4mDuvTnNx+3keEzeCnS7MSh4v392X1+tnO2zs+1ZX0qu5t9WuhKbS8PpfS9OMtnHrpwa1ph3zA/u9vbBmfsI1luRt+s+U917qkpP3P3dbC3k11+1RE5w3RXwulvSo/cbW/bN+fpLWh62oDE5j+j4JaR2CYKNV1/8hYFistYlDaE0vfiDB+zRD6/8trv9p/d42EmZ2hcWzwM7ACqc4oGp3XO+iFUalMKZ5HAMPJmnGG9J5BWmJII78gZzYLO8W2Tc745+tud70kEzuaevMVuUykMIy7rGN0ROav5WFNrqJldjusYZD4eKSucm61RASwm6y5d1Dn9cRRGeQS0dQfuM1L6bpwfqvFi1MuVM2pe29yqt6DJGR1yRI8KyKy3jhpQk8mq2hxqOkqpE2dc0RfnnKIJbaqr6he5ckYTtGs+CbHigUYFygkSLlYAehcmLwktO24oRVa+C2cfm4Ivztk8oEbtjd+QN7RxKPcaZ3DPyDwgeNblK4iho9G9pI3MNVOp8pQrdpjiwr86Z22jiT67fkseIHl2aLc0yhpnfEawGVh7oBWLJQ7XGaThQZYNW6h65jmVaOLCCU8u+STKwPXqnLW8eX3ec8/fVrToP5wRll9dOKOkAD2jXtnWIyOzUWwkkZiL2PjMO32YQKeps47UonNGdh0euF+es5KRYcx77pyVhWCOMztEEzDonquc8WTpMXyupLrxZmHbD6Ks7MgQHxBSchEclCpPaXBGGY9eOX9znbw+Z2SPErPijn036kzPvDZKsjrLmue4X82N863Aq8mcB12Y9UqSKMDx61iOviPVvlgeZqkQadZU1AzfuChVh3S3bIh+6C6SpGj7ierlOStjpZGTu4OzvseYT9tU56UkR876Dtb5jBr1FQIbYum9Q4ly+gtuhbq0u5QqT2lyVjffDdsl+SE4Y5fICE7v2Reb6r/3pLSjI+fNHemKd6Qf+o8EbZ7tR+49SpWnNDkbJ5OPkbbX54wtF+Pirn3u9UpzunJef1s87dwKO2f23KOUV1ZrzgyiETHEQ3C2bMEZZd+5Fam9MzpzVrYwEnqUu6ycmRasWT8Ng60sqZhtkpiJSofgLO1RIjax8xwa8bSd6uM7c76J3Ho0EFf3RFs5Kz7SplLdg7utc9YObvCOwlkGp4kF2t3nhyX0+WFscUEcOA9KfEoJZ3dt1TmK6S+jkpcsT9YrJQ67W+VsnJ71Opzl70t+JThn08WYWGnKYuL3JRP54VeiicKKqc0wnsIIO1r8ReFaHDxsmd6WRA7+TYSt52unifgBuf/GXanylD4ZSU8qho7Y4XHxKpzl78WSZ2TOlwhogvq92LRZ1XZLi3vJp4byfS94Kj8gDL9cu54ZWhdt6fuj19KrYcEzpOmJJLoH0xGu/beVbbS2/p1qSnOL0u2nzKLK83uJeXAfvvJFOH+0CFEnfVu5npJsUZImTfF4FE2YbWjpSw5IMusBwprSwkXppiZRZ/Vy7PBJOZ9OLs7nkIvzOeTifA65OJ9DLs7nkIvzOeTifA65OJ9DLs7nkIvzOeTifA65OJ9DLs7nkIvzOeTifA65OJ9DLs7nkIvzKeS/CnLIBd7gwHEAAAAASUVORK5CYII=" alt="Logo 3">
+                    </div>
+                    <div class="slide">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg1V7c3E3bBXlo82eRGpsLsW9XVQ3mLdcVG-A42C1SRPwU2zaJoJ2Sct51TS_zzqfu4g&usqp=CAU" alt="Logo 4">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- slide -->
+        <!-- slider section -->
+        <section>
+            <div class="container" id="shop">
+                <div class="slider-info">
+                    <p>
+                        *
+                        <u> Our Trending Chickens</u>
+                        *
+                    </p>
+                    <h2 style="color: #fff;">
+                        Most Popular
+                        <span style="color: rgb(255 165 0);"> Products</span>
+                    </h2>
+                    <p>Discover our latest collection of high-quality food.</p>
+                    <a href="#contact" style="text-decoration: none;" class="btnn">
+                        <button>Shop Now</button>
+                    </a>
+                </div>
+                <div class="product-slider">
+                    <div class="product">
+                        <img src="hometopimg.jpg" alt="Product 1">
+                        <h3>Flame Grill Chicken</h3>
+                        <p>$99.99</p>
+                    </div>
+                    <div class="product">
+                        <img src="images 4.png" alt="Product 2">
+                        <h3>Tandoori Chicken</h3>
+                        <p>$79.99</p>
+                    </div>
+                    <div class="product">
+                        <img src="kabab.jpg" alt="Product 3">
+                        <h3>kabab Chicken</h3>
+                        <p>$129.99</p>
+                    </div>
+                    <div class="product">
+                        <img src="images 3.png" alt="Product 4">
+                        <h3>Tandoori Kawab</h3>
+                        <p>$149.99</p>
+                    </div>
+                    <div class="product">
+                        <img src="sri lankan.jpg" alt="Product 4">
+                        <h3>Sri Lankan BBQ Chicken</h3>
+                        <p>$149.99</p>
+                    </div>
+                    <div class="product">
+                        <img src="grill-chicken-legs-grilled-chicken-legs-bbq-sesame-parsley-tomato-95526623.webp" alt="Product 4">
+                        <h3>Grill Chicken</h3>
+                        <p>$149.99</p>
+                    </div>
+                    <div class="product">
+                        <img src="Grilled-Chicken-Wings-1-1.webp" alt="Product 4">
+                        <h3>
+                            Grilled Chicken Wings
+                        </h3>
+                        <p>$149.99</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- product slider section -->
+        <section>
+            <div class="product-box" id="shop-now">
+                <div class="product-image">
+                    <img src="Frame 2 (3).png" alt="Product 1">
+                </div>
+                <div class="product-info">
+                    <h3>Are you ready to lead the way</h3>
+                    <p>Step up your style with our latest shoe collection. Designed for comfort and crafted with quality materials, these shoes are a perfect blend of fashion and function. Buy now and step out in style!</p>
+                    <a href="#contact" style="text-decoration: none;color: white;">
+                        <button>Buy Now</button>
+                    </a>
+                </div>
+            </div>
+            <!-- sell heading-->
+            <div class="sell" id="collection">
+                <h1>* Best Selling *</h1>
+            </div>
+            <!-- product -->
+            <div class="category-buttons">
+                <button onclick="showProducts('man')" class="man-1">All Categorys</button>
+                <button onclick="showProducts('woman')">Kabab</button>
+                <button onclick="showProducts('boy')">Chicken Curry</button>
+                <button onclick="showProducts('child')">Chicken Tikka</button>
+            </div>
+            <div class="product-container" id="product-container">
+                <div class="product-boxs">
+                    <img src="images 4.png" alt="">
+                    <h2>Tandoori Chicken</h2>
+                    <p>$49.00</p>
+                    <button id="btn" class="btnns">Buy Now</button>
+                </div>
+                <div class="product-boxs">
+                    <img src="image.jpg" alt="">
+                    <h2>kabab</h2>
+                    <p>$89.00</p>
+                    <button id="btn-1" class="btnns">Buy Now</button>
+                </div>
+                <div class="product-boxs">
+                    <img src="images 5.png" alt="">
+                    <h2>Grilled Fry Chicken</h2>
+                    <p>$99.00</p>
+                    <button id="btn-2" class="btnns">Buy Now</button>
+                </div>
+                <div class="product-boxs">
+                    <img src="gravy tandoori.avif" alt="">
+                    <h2>Grilles Messi Tandoori</h2>
+                    <p>$129.00</p>
+                    <button id="btn-3" class="btnns">Buy Now</button>
+                </div>
+                <div class="product-boxs">
+                    <img src="Mayfair lagoon.avif" alt="">
+                    <h2>Mayfair Lagoon</h2>
+                    <p>$149.00</p>
+                    <button id="btn-4" class="btnns">Buy Now</button>
+                </div>
+                <div class="product-boxs">
+                    <img src="kabab platter.webp" alt="">
+                    <h2>Kabab Platter</h2>
+                    <p>$59.00</p>
+                    <button id="btn-5" class="btnns">Buy Now</button>
+                </div>
+                <div class="product-boxs">
+                    <img src="reshmi kabab.webp" alt="">
+                    <h2>Reshmi Kabab</h2>
+                    <p>$79.00</p>
+                    <button id="btn-6" class="btnns">Buy Now</button>
+                </div>
+                <div class="product-boxs">
+                    <img src="CHICKEN TANDOORI.webp" alt="">
+                    <h2>Chicken Tandoori</h2>
+                    <p>$59.00</p>
+                    <button id="btn-7" class="btnns">Buy Now</button>
+                </div>
+                <div class="product-boxs">
+                    <img src="seekh kabab.webp" alt="">
+                    <h2>Seekh Kabab</h2>
+                    <p>$69.00</p>
+                    <button id="btn-8" class="btnns">Buy Now</button>
+                </div>
+                <div class="product-boxs">
+                    <img src="chicken kabab chatni.jpg" alt="">
+                    <h2>Chicken Kabab Chatni</h2>
+                    <p>$119.00</p>
+                    <button id="btn-9" class="btnns">Buy Now</button>
+                </div>
+            </div>
+        </section>
+        <!-- show more btn -->
+        <div class="bton">
+            <a href="#"><button class="butoon">Show more</button></a>
+        </div>
+        <!-- show more btn -->
+        <!-- faq section -->
+        <div class="faq-head" id="customize">
+            <h1>* Customer Review *</h1>
+        </div>
+        <!--TESTIMONIALS.start-->
+        <section class="review faq-container" id="review">
+            <h4 class="faq-head texto"></h4>
+            <div class="swiper-container review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="https://avatars.githubusercontent.com/u/86187639?v=4" alt="">
+                            <div class="user-info">
+                                <h3>Deepanshu Thakur</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h2>Friendly and courteous staff.</h2>
+                        <p>Friendly and courteous staff.
+                            Sandwich was excellent. They serve beer, the lager was a great accompaniment.</p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="https://static.vecteezy.com/system/resources/thumbnails/034/598/493/small/ai-generative-happy-business-man-in-a-suit-white-background-photo.jpg" alt="">
+                            <div class="user-info">
+                                <h3>Sartaj Malhotra</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h2>Better than KFC…</h2>
+                        <p>
+                            First order cancelled as no spare ribs . I then re ordered . Delivery came on time and exceeded our expectations . Everything piping hot .                        </p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="https://tse4.mm.bing.net/th?id=OIP.IFjJNHVfQ-IWf9HoR9CQzgHaLO&pid=Api&P=0" alt="">
+                            <div class="user-info">
+                                <h3>Alisha Fernandez</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h2>
+                            Had been looking for something 
+                exactly like this!
+                        </h2>
+                        <p>
+                            Excellent customer service and fast delivery
+                        </p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="https://tse4.mm.bing.net/th?id=OIP.UGlKxiZQylR3CnJIXSbFIAHaLL&pid=Api&P=0" alt="">
+                            <div class="user-info">
+                                <h3>Thomas Michelet</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h2>I had a great visit to Chicken Shop…</h2>
+                        <p>I had a great visit to Chicken Five Ten Foods, the service by this was great and the food.</p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="https://img.freepik.com/free-photo/handsome-corporate-man-real-estate-agent-assistant-smiling-hold-hands-together-how-may-i-help-you-smiling-friendly-polite-assist-customer-white-background_176420-45257.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1711324800&semt=ais" alt="">
+                            <div class="user-info">
+                                <h3>Akshay Rajput</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h2>The food is amazing and service is…</h2>
+                        <p>
+                            The food is amazing and service is great Niaz is a brilliant member of staff promote him!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!--TESTIMONIALS.end-->
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-1">
+            <h2>Five Ten Foods & Co.</h2>
+            <p>Five Ten Foods Provides Fresh Roost Chicken</p>
+            <a href="#" style="color: black;text-decoration: none;">
+                <i class="uil uil-facebook"></i>
+            </a>
+            <a href="#" style="color: black;text-decoration: none;">
+                <i class="uil uil-instagram"></i>
+            </a>
+            <a href="#" style="color: black;text-decoration: none;">
+                <i class="uil uil-linkedin"></i>
+            </a>
+            <br>
+            <div class="linked">
+                <h2>Customer No.</h2>
+                <a href="tel:8368564017">+91 836-856-4017</a><br>
+                <a href="tel:9311517568">+91 931-151-7568</a>
+            </div>
+        </div>
+        <div></div>
+        <div class="footer-2" id="contact">
+            <h2>Subscribe Five Ten Foods</h2>
+            <form action="https://formspree.io/f/mqkrbyqa" method="post">
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter email..."
+                    required
+                >
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="footer-3">
+            <h2>Quick Links</h2>
+            <a href="#home" style="color: #fff;text-decoration: none;">
+                <p>Home</p>
+            </a>
+            <a href="#shop" style="color: #fff;text-decoration: none;">
+                <p>Shop</p>
+            </a>
+            <a href="#collection" style="color: #fff;text-decoration: none;">
+                <p>Category</p>
+            </a>
+            <!-- <a href="app.html" style="color: #fff;text-decoration: none;">
+                <p>Contact Us</p>
+            </a> -->
+            <a href="privacy.html" style="color: #fff;text-decoration: none;">
+                <p>Privacy</p>
+            </a>
+        </div>
+    </div>
+    <a href="index.html" style="text-decoration: none;" class="link">
+        <footer style="text-align: center;padding: 10px; color: #ffff; background: #000;">Copyright © Five Ten Foods & Co. All Right Reserved 2024</footer>
+    </a>
+    <script src="app.js"></script>
+    <!-- swiper js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper(".review-slider", {
+  spaceBetween:20,
+  slidesPerView: 3,
+  centeredSlides:true,
+  autoplay:{
+      delay:1500,
+      disableOnInteraction:false,
+  },
+  pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+   
+   loop:true,
+   breakpoints: {
+      0: {
+          slidesPerView:1,
+      },
+      640:{
+          slidesPerView:2,
+      },
+      768:{
+          slidesPerView:2,
+      },
+      1024:{
+          slidesPerView:3,
+      },
+   },
+});
+    </script>
+</body>
+</html>
